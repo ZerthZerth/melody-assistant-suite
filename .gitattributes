@@ -1,0 +1,16 @@
+# See https://github.com/github/linguist   
+# Configuration for git attributes   
+# Default behavior
+* text=auto eol=lf
+
+*.gif binary
+*.ico binary
+**/*.py linguist-detectable
+
+yarn.lock linguist-generated
+public/** linguist-vendored
+node_modules/* linguist-vendored
+*.py linguist-detectable
+
+*.jpeg binary
+# eof 23a2a2d3
